@@ -1,39 +1,87 @@
-# Build results
+########################################
+# 🛠️ Build results
+########################################
 [Bb]in/
 [Oo]bj/
 [Aa]rtifacts/
+*.dll
+*.exe
+*.pdb
+*.so 
+*.dylib
+*.a
+*.lib
+*.o
+*.class
+*.elf
 
-# IDE
+########################################
+# 💻 IDE configs
+########################################
 .vs/
 .idea/
 .vscode/
 *.user
 *.suo
 *.cache
+*.sln.docstates
 
-# Cake
+########################################
+# 🍰 Cake build system
+########################################
 tools/
 .cake/
 
-# System Files
+########################################
+# 🖥️ System files
+########################################
 .DS_Store
 Thumbs.db
 *~
 .directory
 
-# Logs
+########################################
+# 📃 Logs and temp
+########################################
 *.log
 logs/
+*.tmp
+*.bak
 
-# Environment
+########################################
+# 🌱 Environments
+########################################
 .env
-
+.env.*
 .config/
+secrets.json
 
-*qwerty*
+########################################
+# 🔧 NuGet
+########################################
+*.nupkg
+project.lock.json
+project.fragment.lock.json
 
-packages/
-
+########################################
+# 📦 Linux packaging
+########################################
 *.deb
 *.apg
 *.rpm
+*.pkg*
+*.tar.gz
+*.tar.bz2
+packages/
+
+########################################
+# 🌀 Custom / wildcard filters
+########################################
+*qwerty*
+*.old
+*.backup
+*.orig
+*.swp
+*beta*
+*alpha*
+
