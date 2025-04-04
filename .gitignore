@@ -31,3 +31,9 @@ logs/
 .config/
 
 *qwerty*
+
+packages/
+
+*.deb
+*.apg
+*.rpm
