@@ -1,0 +1,31 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Aa]rtifacts/
+
+# IDE
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.cache
+
+# Cake
+tools/
+.cake/
+
+# System Files
+.DS_Store
+Thumbs.db
+*~
+.directory
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+
+.config/
