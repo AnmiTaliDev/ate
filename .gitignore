@@ -1,87 +1,43 @@
-########################################
-# 🛠️ Build results
-########################################
-[Bb]in/
-[Oo]bj/
-[Aa]rtifacts/
-*.dll
-*.exe
-*.pdb
-*.so 
-*.dylib
-*.a
-*.lib
-*.o
-*.class
-*.elf
+# Rust build artifacts
+/target
+**/*.rs.bk
 
-########################################
-# 💻 IDE configs
-########################################
-.vs/
+# Cargo lock is kept for binaries
+# Cargo.lock
+
+# Editor artifacts
 .idea/
 .vscode/
-*.user
-*.suo
-*.cache
-*.sln.docstates
-
-########################################
-# 🍰 Cake build system
-########################################
-tools/
-.cake/
-
-########################################
-# 🖥️ System files
-########################################
-.DS_Store
-Thumbs.db
+*.swp
+*.swo
 *~
-.directory
+.editorconfig
 
-########################################
-# 📃 Logs and temp
-########################################
-*.log
-logs/
-*.tmp
-*.bak
+# OS artifacts
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
 
-########################################
-# 🌱 Environments
-########################################
+# Environment
 .env
 .env.*
-.config/
-secrets.json
 
-########################################
-# 🔧 NuGet
-########################################
-*.nupkg
-project.lock.json
-project.fragment.lock.json
+# Logs
+*.log
 
-########################################
-# 📦 Linux packaging
-########################################
-*.deb
-*.apg
-*.rpm
-*.pkg*
-*.tar.gz
-*.tar.bz2
-packages/
+# Binaries and archives
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.rlib
+*.pdb
 
-########################################
-# 🌀 Custom / wildcard filters
-########################################
-*qwerty*
-*.old
-*.backup
-*.orig
-*.swp
-*beta*
-*alpha*
-
+# Benchmark and profiling output
+perf.data
+perf.data.old
+flamegraph.svg
