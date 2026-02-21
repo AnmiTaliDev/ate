@@ -71,4 +71,4 @@ Default is `Maximum`.
 ## License
 
 Mozilla Public License 2.0. See [LICENSE](LICENSE).
-Copyright (c) 2025 AnmiTaliDev <anmitalidev@nuros.org>
+Copyright (c) 2026 AnmiTaliDev <anmitalidev@nuros.org>
